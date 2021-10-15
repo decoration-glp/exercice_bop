@@ -9,7 +9,7 @@ public static void main(String args[]) {
 	i = Integer.parseInt(x); //conversion du type string en int 
 	
 	
-	if(i%1==0 || i%2==0 ||i%3 == 0){
+	if(i%1==0 && i%2==0 && i%3 == 0){
 	
 	
 	System.out.println("le nombre est parfait"+i);
